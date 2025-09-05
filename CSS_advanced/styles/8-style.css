@@ -17,6 +17,10 @@
 
     --font-weight-regular: 400;
     --font-weight-bold: 700;
+
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
 }
 
 body {
@@ -29,4 +33,5 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-base);
   }
