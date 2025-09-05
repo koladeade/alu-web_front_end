@@ -307,7 +307,7 @@ ul.row{
     left: var(--header-logo-link-left);
 }
 
-nav .nav-link:before {
+nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;
@@ -315,10 +315,9 @@ nav .nav-link:before {
     background-color: var(--color-white);
     width: 0;
     height: 20%;
-  }
-  
-  
-  nav .nav-item:hover .nav-link::before {
+}
+
+/* Target before pseudo-elements of nav-link on hover of nav-item inside nav */
+nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
-  }
