@@ -273,7 +273,7 @@ ul.row{
 }
 
 .card-testimonial .card-quote cite{
-    display: inline-block;
+    display: block;
     padding-top: 1rem;
     color: var(--color-primary);
 }
