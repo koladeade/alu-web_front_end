@@ -16,4 +16,7 @@
 body{
     --text-color: var(--color-black);
 }
+a{
+    --text-color: var(--color-black);
+}
   
